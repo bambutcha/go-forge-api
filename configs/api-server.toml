@@ -1,3 +1,4 @@
 port = ":8080"
 log_level = "debug"
 database_url = "host=localhost user=root password=secret dbname=restapi_dev sslmode=disable"
+session_key = "d40f1ccbd37f406a26d716fec487552431dc46f72e1613067df7ba2855c8bc218dc0fe87a714e8ed05064fafd95fdac08f986b403c32b3d9df781a6a7679d02b"
