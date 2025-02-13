@@ -1,18 +1,8 @@
 # go-api-forge
 
-  
+[![Go Report Card](https://goreportcard.com/badge/github.com/bambutcha/go-forge-api)](https://goreportcard.com/report/github.com/bambutcha/go-forge-api) [![License](https://img.shields.io/github/license/bambutcha/go-forge-api)](https://github.com/bambutcha/go-forge-api/blob/main/LICENSE)
 
-<div align="left">
-
-  
-
-[![Go Reference](https://pkg.go.dev/badge/github.com/bambutcha/go-forge-api.svg)](https://pkg.go.dev/github.com/bambutcha/go-forge-api)
-
-[![Go Report Card](https://goreportcard.com/badge/github.com/bambutcha/go-forge-api)](https://goreportcard.com/report/github.com/bambutcha/go-forge-api)
-
-[![License](https://img.shields.io/github/license/bambutcha/go-forge-api)](https://github.com/bambutcha/go-forge-api/blob/main/LICENSE)
-
-  
+<br>
 
 A powerful and flexible toolkit for building production-ready REST APIs in Go.
 
@@ -22,15 +12,11 @@ A powerful and flexible toolkit for building production-ready REST APIs in Go.
 
 - [Quick Start](#quick-start)
 
-- [Documentation](#documentation)
-
-- [Examples](#examples)
-
 - [Contributing](#contributing)
 
-  
+- [License](#license)
 
-</div>
+- [Acknowledgments](#acknowledgments)
 
 ---
 
