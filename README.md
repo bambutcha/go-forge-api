@@ -1,6 +1,6 @@
 # go-api-forge
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/bambutcha/go-forge-api)](https://goreportcard.com/report/github.com/bambutcha/go-forge-api) [![License](https://img.shields.io/github/license/bambutcha/go-forge-api)](https://github.com/bambutcha/go-forge-api/blob/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bambutcha/go-forge-api)](https://goreportcard.com/report/github.com/bambutcha/go-forge-api) [![License](https://img.shields.io/github/license/bambutcha/go-forge-api)](https://github.com/bambutcha/go-forge-api/blob/master/LICENSE)
 
 <br>
 
