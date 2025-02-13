@@ -54,7 +54,7 @@ A powerful and flexible toolkit for building production-ready REST APIs in Go.
 
 ---
 
-## Quick Star 
+## Quick Start
 
 ### Prerequisites
 
