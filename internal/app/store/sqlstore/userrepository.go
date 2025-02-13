@@ -3,8 +3,8 @@ package sqlstore
 import (
 	"database/sql"
 
-	"github.com/bambutcha/http-rest-api/internal/app/model"
-	"github.com/bambutcha/http-rest-api/internal/app/store"
+	"github.com/bambutcha/go-forge-api/internal/app/model"
+	"github.com/bambutcha/go-forge-api/internal/app/store"
 )
 
 // UserRepository ...

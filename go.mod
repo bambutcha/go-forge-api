@@ -1,4 +1,4 @@
-module github.com/bambutcha/http-rest-api
+module github.com/bambutcha/go-forge-api
 
 go 1.24.0
 

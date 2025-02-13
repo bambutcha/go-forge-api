@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/BurntSushi/toml"
-	apiserver "github.com/bambutcha/http-rest-api/internal/app/api-server"
+	apiserver "github.com/bambutcha/go-forge-api/internal/app/api-server"
 )
 
 var (

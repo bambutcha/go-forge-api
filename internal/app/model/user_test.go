@@ -3,7 +3,7 @@ package model_test
 import (
 	"testing"
 
-	"github.com/bambutcha/http-rest-api/internal/app/model"
+	"github.com/bambutcha/go-forge-api/internal/app/model"
 	"github.com/stretchr/testify/assert"
 )
 

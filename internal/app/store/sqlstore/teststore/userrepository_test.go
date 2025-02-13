@@ -3,9 +3,9 @@ package teststore_test
 import (
 	"testing"
 
-	"github.com/bambutcha/http-rest-api/internal/app/model"
-	"github.com/bambutcha/http-rest-api/internal/app/store"
-	"github.com/bambutcha/http-rest-api/internal/app/store/sqlstore/teststore"
+	"github.com/bambutcha/go-forge-api/internal/app/model"
+	"github.com/bambutcha/go-forge-api/internal/app/store"
+	"github.com/bambutcha/go-forge-api/internal/app/store/sqlstore/teststore"
 	"github.com/stretchr/testify/assert"
 )
 

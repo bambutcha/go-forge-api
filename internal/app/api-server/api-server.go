@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"net/http"
 
-	"github.com/bambutcha/http-rest-api/internal/app/store/sqlstore"
+	"github.com/bambutcha/go-forge-api/internal/app/store/sqlstore"
 	"github.com/gorilla/sessions"
 )
 

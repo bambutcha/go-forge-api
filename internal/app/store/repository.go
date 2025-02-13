@@ -1,6 +1,6 @@
 package store
 
-import "github.com/bambutcha/http-rest-api/internal/app/model"
+import "github.com/bambutcha/go-forge-api/internal/app/model"
 
 // UserRepository ...
 type UserRepository interface {
