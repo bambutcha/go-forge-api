@@ -10,7 +10,7 @@ type Store struct {
 }
 
 func New() *Store {
-    return &Store{}
+	return &Store{}
 }
 
 func (s *Store) User() store.UserRepository {
@@ -21,6 +21,6 @@ func (s *Store) User() store.UserRepository {
 		store: s,
 		users: make(map[int]*model.User),
 	}
-	
+
 	return s.userRepository
 }

@@ -29,7 +29,6 @@ func TestUserRepository_FindByID(t *testing.T) {
 	assert.NotNil(t, u2)
 }
 
-
 func TestUserRepository_FindByEmail(t *testing.T) {
 	s := teststore.New()
 	email := exampleEmail

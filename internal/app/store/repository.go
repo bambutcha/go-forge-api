@@ -8,4 +8,3 @@ type UserRepository interface {
 	FindByID(int) (*model.User, error)
 	FindByEmail(string) (*model.User, error)
 }
-

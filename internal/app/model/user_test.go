@@ -8,32 +8,32 @@ import (
 )
 
 func TestUser_Validate(t *testing.T) {
-	testCases := []struct{
-		name string
-		u func() *model.User
-		isValid bool	
+	testCases := []struct {
+		name    string
+		u       func() *model.User
+		isValid bool
 	}{
 		{
 			name: "valid",
-			u: func () *model.User {
+			u: func() *model.User {
 				return model.TestUser(t)
 			},
 			isValid: true,
 		},
 		{
 			name: "with encrypted password",
-			u: func () *model.User {
+			u: func() *model.User {
 				u := model.TestUser(t)
 				u.Password = ""
 				u.EncryptedPassword = "encryptedpassword"
-				
+
 				return u
 			},
 			isValid: true,
 		},
 		{
 			name: "empty email",
-			u: func () *model.User {
+			u: func() *model.User {
 				u := model.TestUser(t)
 				u.Email = ""
 
@@ -43,7 +43,7 @@ func TestUser_Validate(t *testing.T) {
 		},
 		{
 			name: "invalid email",
-			u: func () *model.User {
+			u: func() *model.User {
 				u := model.TestUser(t)
 				u.Email = "invalid"
 
@@ -53,7 +53,7 @@ func TestUser_Validate(t *testing.T) {
 		},
 		{
 			name: "empty password",
-			u: func () *model.User {
+			u: func() *model.User {
 				u := model.TestUser(t)
 				u.Password = ""
 
@@ -63,7 +63,7 @@ func TestUser_Validate(t *testing.T) {
 		},
 		{
 			name: "short password",
-			u: func () *model.User {
+			u: func() *model.User {
 				u := model.TestUser(t)
 				u.Password = "short"
 
