@@ -2,7 +2,7 @@
 
   
 
-<div align="center">
+<div align="left">
 
   
 
@@ -18,15 +18,15 @@ A powerful and flexible toolkit for building production-ready REST APIs in Go.
 
   
 
-[Features](#features) •
+- [Features](#features)
 
-[Quick Start](#quick-start) •
+- [Quick Start](#quick-start)
 
-[Documentation](#documentation) •
+- [Documentation](#documentation)
 
-[Examples](#examples) •
+- [Examples](#examples)
 
-[Contributing](#contributing)
+- [Contributing](#contributing)
 
   
 
